@@ -29,6 +29,7 @@ const onCreateBox = value => {
 const onDestroyBox = () => {
   inputAmount.value = 0;
   container.innerHTML = '';
+  //remove
 };
 
 createBtn.addEventListener('click', onGetInputValue);
